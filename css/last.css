@@ -26,6 +26,7 @@ i {
     overflow: hidden;
   }
   #HomeHero {
+    margin-top: 100px !important;
     display: flex;
     min-height: 700px;
     justify-content: center;
@@ -310,10 +311,16 @@ button.selectDinar {
 .amoutToken {
     display: flex;
     color: white;
+    justify-content: space-between;
 }
 .amoutToken label {
     color: #8a8c94;
     font-size: 20px;
+}
+.amoutToken span{
+    padding-top: 3px;
+    color: #8a8c94;
+    font-size: 15px;
 }
 span.tokenpr {
     color: white;
@@ -523,6 +530,7 @@ span.cmplNmb {
 }
 /* **** FOOTER **** */
 footer {
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
